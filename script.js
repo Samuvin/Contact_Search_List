@@ -19,7 +19,7 @@ onload = function () {
 		}
 		details[0] = details[0].trim();
 		details[1] = details[1].trim();
-		if (details[1].length !== 6) {
+		if (details[1].length !== 10) {
 			alert("Incorrectly formatted input");
 			return;
 		}
@@ -30,7 +30,7 @@ onload = function () {
 
 	del.onclick = function () {
 		let details = delete_info.value.trim();
-		if (details.length !== 6) {
+		if (details.length !== 10) {
 			alert("Incorrectly formatted input");
 			return;
 		}
