@@ -47,9 +47,7 @@ class Trie {
 	}
 
 	findAll(node) {
-		// Contact leaf node
 		if (node === null) return;
-
 		if (node instanceof ContactNode) {
 			this.res.push(node);
 			return;
